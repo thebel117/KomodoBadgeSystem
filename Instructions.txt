@@ -66,8 +66,6 @@ Door removed.
 
 12345 has access to door A7.
 
- 
-
 #3 List all badges view
 Badge #	Door Access
 12345	A7
@@ -77,5 +75,6 @@ Badge #	Door Access
 
 Out of scope:
 You do not need to consider tying an individual badge to a particular user. Just the Badge # will do.
-
+        --AKA don't screw with adding names string logic in the update/delete/get methods
 Be sure to Unit Test your Repository methods.
+        -- Just test if it can make badges to save some time
